@@ -1,0 +1,296 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    /*header start*/
+    .e_scl{
+        margin: 5px 10px;
+    }
+      /*bunner start*/
+      bunner{
+        padding-bottom: 60px;
+      }
+      
+    .b_text {
+        text-align: center;
+    }
+    .b_h1 {
+        padding: 0;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .b_p2 {
+        padding: 0;
+        line-height: 25px;
+    }
+
+    .btn_link {
+        margin: 15px auto 0;
+    }
+
+    .b_img {
+        margin-bottom: 30px;
+        padding: 0px;
+    }
+ 
+    /*bunner end*/
+
+    /*feature start*/
+    .c_padd{
+        padding-bottom: 60px;
+        }
+    .s_feature{
+        margin-top: 24px;}
+    .s_img {
+        width: 60px;
+        height: 70px;
+        }
+        
+/*feature end*/
+
+/*course start*/
+.c_h1{
+    font-size: 25px;
+}
+.c_item {
+    margin: 30px 0 0;
+    padding: 10px 10px 15px;
+}
+.c_h2 {
+    font-size: 20px;}
+
+.c_left ul li img,.c_right ul li img{
+    width: 18px;
+}
+.c_left ul li span,.c_right ul li span{
+    font-weight: 400;
+}
+.cli:not(:last-child) {
+    margin-right: 0px;
+}
+/*course end*/
+
+ /*testimonial start*/
+ .t_item{
+    margin-top: 30px;
+}
+.t_img {
+    padding: 0 50px 20px;
+}
+.t_text{
+    text-align: center;
+}
+.t_text p {
+    line-height: 25px;
+}
+/*testimonial end*/
+ /*footer top start*/
+
+.footer_top {
+    text-align: center;
+    padding: 55px 0 20px;
+}
+
+.ft_details {
+    margin-bottom: 35px;
+    padding: 0;
+}
+.ft_links{
+    margin-bottom: 35px;
+}
+
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   /*header start*/
+    .e_scl {
+    margin: 5px 118px;
+    margin-bottom: 5px;
+    padding: 0 15px !important;
+    color: #000 !important;
+}
+
+    /*bunner start*/
+    .b_text {
+        text-align: center;
+    }
+    .b_h1 {
+        padding: 0 70px 0;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .b_p2 {
+        padding: 0 30px 0;
+        line-height: 25px;
+    }
+
+    .btn_link {
+        margin: 15px auto 0;
+    }
+
+    .b_img {
+        margin-bottom: 30px;
+        padding: 0 50px;
+    }
+    /*bunner end*/
+
+/*feature start*/
+    .c_padd{
+        padding-bottom: 60px;
+        }
+    .s_feature{
+        margin-top: 24px;}
+        
+/*feature end*/
+
+ /*course start*/
+    .c_h1{
+        font-size: 25px;
+    }
+    .c_item {
+        margin: 30px 60px 0;
+        padding: 20px 15px 25px;
+    }
+/*course end*/
+
+ /*testimonial start*/
+ .t_item{
+    margin-top: 30px;
+}
+.t_img {
+    padding: 0 120px 20px;
+}
+.t_text{
+    text-align: center;
+}
+/*testimonial end*/
+
+   /*footer top start*/
+   .footer_top {
+    text-align: center;
+}
+.ft_details {
+    margin-bottom: 35px;
+    padding: 0 70px 0 70px;
+}
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /*header start*/
+    .e_scl {
+        margin: 5px 202px;
+    }
+    .memu ul li a {
+        margin-bottom: 10px;
+        padding: 0 10px !important;
+        color: #000 !important;
+    }
+
+     /*bunner start*/
+    .b_text {
+        text-align: center;
+    }
+    .b_h1 {
+        padding: 0 90px 0;
+    }
+
+    .b_p2 {
+        padding: 0 70px 0;
+    }
+
+    .btn_link {
+        margin: 15px auto 0;
+    }
+
+    .b_img {
+        margin-bottom: 30px;
+        padding: 0 100px;
+    }
+   
+    /*bunner end*/
+
+    /*feature start*/
+    .c_padd{
+        padding-bottom: 80
+        px;
+    }
+    .s_feature{
+        margin-top: 24px;}
+
+    /*feature end*/
+
+    /*course start*/
+    .c_item {
+        margin: 40px 100px 0;}
+    /*course end*/
+
+    /*testimonial start*/
+    .t_item{
+        margin-top: 40px;
+    }
+    /*testimonial end*/
+
+    /*footer top start*/
+    .footer_top {
+        text-align: center;
+    }
+    .ft_details {
+        margin-bottom: 35px;
+        padding: 0 80px 0 80px;
+    }
+
+}
+
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /*feature start*/
+    .s_feature {
+        padding: 50px 0 45px;}
+    /*feature end*/
+
+        /*course start*/
+    .c_item {
+        padding: 24px 15px 30px;}
+    .c_left ul li img,.c_right ul li img{
+        width: 18px;
+    }
+    .c_left ul li span,.c_right ul li span{
+        font-weight: 400;
+    }
+    .cli:not(:last-child) {
+        margin-right: 0px;
+    }
+
+    /*course end*/
+}
+
+/* extra Large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    
+ }
+
+/* Extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) { 
+    /*bunner start*/
+
+    .b_h1 {
+    padding-right: 100px;}
+    
+    .b_p2 {
+        padding-right: 90px;}
+
+    /*feature start*/
+    .s_feature {
+        padding: 65px 0 60px;}
+
+    /*feature send*/
+    /*footer top start*/
+    .ft_details{
+        padding-right: 130px;
+    }
+
+                            }
+
